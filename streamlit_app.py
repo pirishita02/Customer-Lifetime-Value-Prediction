@@ -8,7 +8,11 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Import utility modules
-from utils.data_preprocessing import DataProcessor
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
+
+from data_preprocessing import DataProcessor
 from utils.feature_engineering import FeatureEngineer
 from utils.models import MLModels
 from utils.visualizations import Visualizer

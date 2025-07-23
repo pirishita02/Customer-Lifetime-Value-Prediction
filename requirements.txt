@@ -2,5 +2,5 @@ streamlit>=1.26.0
 numpy
 pandas
 plotly
-scikit learn
+scikit-learn
 openxyl

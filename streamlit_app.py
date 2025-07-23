@@ -8,7 +8,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Import utility modules
-from utils.data_processing import DataProcessor
+from utils.data_preprocessing import DataProcessor
 from utils.feature_engineering import FeatureEngineer
 from utils.models import MLModels
 from utils.visualizations import Visualizer
